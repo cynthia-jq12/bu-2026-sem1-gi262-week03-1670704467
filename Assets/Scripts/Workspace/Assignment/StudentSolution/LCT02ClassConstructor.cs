@@ -17,26 +17,27 @@ namespace Assignment.StudentSolution.LCT02
 
         // สร้าง constructor ที่รับ parameter 3 ตัว และกำหนดค่าให้กับ properties ของ class
         // โดยทั้ง 3 parameter คือ name, breed, age ตามลำดับ
-        public Dog()
+        public Dog(string myName , int myAge)
         {
-
+            name = myName;
+            age = myAge;
         }
 
         /// behaviors ...
 
         public void Bark()
         {
-
+            Debug.Log($"{name} Braking");
         }
 
         public void WagTail()
         {
-
+            Debug.Log($"{name} Wagging");
         }
 
         public void StopBarking()
         {
-
+            Debug.Log($"{name} stopped");
         }
 
         // end of behaviors ...
@@ -57,6 +58,8 @@ namespace Assignment.StudentSolution.LCT02
 
             // ...
             // Student code ends HERE ...
+            dog1 = new Dog("Buddy" , 100);
+            
 
             // เรียกใช้ method ของ object นั้น
 

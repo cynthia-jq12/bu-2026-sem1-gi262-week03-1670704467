@@ -16,7 +16,10 @@ namespace Assignment.StudentSolution.LCT03
     // class Dog inherits from Animal
     public class Dog
     {
-
+        public void Walk()
+        {
+            Debug.Log("Walk");
+        }
     }
 
     // class Bird inherits from Animal
@@ -35,6 +38,7 @@ namespace Assignment.StudentSolution.LCT03
             // + เรียกใช้ method MakeSound() ของ dog
             // + เรียกใช้ method Walk() ของ dog
             Dog dog = new Dog();
+           
 
 
             // 2. สร้าง instance ของ class Bird โดยกำหนดชื่อตัวแปรว่า bird
