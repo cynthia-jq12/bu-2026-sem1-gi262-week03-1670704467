@@ -1,4 +1,4 @@
-    using UnityEngine;
+using UnityEngine;
 
 namespace Assignment.StudentSolution
 {
@@ -7,14 +7,14 @@ namespace Assignment.StudentSolution
         public int damage;
         protected int aiLevel;
 
-        public virtual void Attack(Entity traget)
+        public virtual void Attack(Entity target)
         {
-            
+
         }
 
         protected virtual void Patrol()
         {
-            
+
         }
     }
 }
