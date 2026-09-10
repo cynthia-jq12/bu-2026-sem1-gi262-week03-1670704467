@@ -8,6 +8,7 @@ namespace Assignment.StudentSolution
 
         public override void Attack(Entity target)
         {
+
         }
     }
 }
